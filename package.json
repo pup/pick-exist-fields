@@ -1,0 +1,27 @@
+{
+  "name": "pick-exist-fields",
+  "version": "1.0.0",
+  "description": "Pick exist fields from an object",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "test": "npx jest --clearCache && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pup/pick-exist-fields"
+  },
+  "homepage": "https://github.com/pup/pick-exist-fields#readme",
+  "keywords": [
+    "pick",
+    "pick-exist-fields"
+  ],
+  "author": "wangchao <75666731@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "rollup": "^4.6.1"
+  }
+}
