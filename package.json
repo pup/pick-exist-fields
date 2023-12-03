@@ -1,6 +1,6 @@
 {
   "name": "pick-exist-fields",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pick exist fields from an object",
   "main": "dist/bundle.js",
   "scripts": {
