@@ -5,7 +5,7 @@
   "main": "dist/bundle.js",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
-    "test": "npx jest --clearCache && jest"
+    "test": "npm run build && npx jest --clearCache && jest"
   },
   "repository": {
     "type": "git",
